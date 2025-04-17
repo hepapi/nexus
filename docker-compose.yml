@@ -40,4 +40,3 @@ services:
       - "traefik.http.services.hosted.loadbalancer.server.port=8083"
       - "traefik.http.routers.hosted.service=hosted"
       - "traefik.http.routers.hosted.entrypoints=websecure"
-      - "traefik.http.routers.hosted.tls=true"
